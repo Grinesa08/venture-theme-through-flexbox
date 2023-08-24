@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind+Siliguri:wght@300&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind+Siliguri:wght@300&family=Karla:wght@300&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Unica+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 2% 8%;
+    background-color: rgba(246, 244, 244, 0.882);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    height: 45px;
+}
+
+.nav-bar h1 {
+    flex: 1;
+    font-family: 'Unica One';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.sort-bar {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: flex-end;
+}
+
+.sort {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.06%;
+    margin-top: 5%;
+}
+
+.product-card {
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    flex-basis: 19.952%;
+    position: relative;
+}
+
+.product-info {
+    margin-top: auto;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+select {
+    width: 120px;
+    border: none;
+    background-color: transparent;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 0.9rem;
+    appearance: none;
+    background-image: url(https://venture-theme-snowboards.myshopify.com/cdn/shop/t/18/assets/ico-select.svg?v=12459251128197754421550248182);
+    background-repeat: no-repeat;
+    background-position: right 1% center;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #848484;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: Karla;
+}
+
+h5 {
+    font-family: Karla;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: Karla;
+    letter-spacing: 0.1rem;
+    color: rgb(171, 170, 170);
+    height: 20px;
+    line-height: 2;
+}
+
+.products .product-card:nth-child(3) h6 {
+    color: rgb(50, 50, 186);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.product-info h5 {
+    font-size: 2.3vh;
+}
+
+.product-info h6 {
+    font-size: 1.8vh;
+    color: #717171;
+}
+
+.product-card:hover {
+    cursor: pointer;
+}
+
+.product-card img:hover {
+    transform: scale(1.1) skew(0deg) translate(0px,-8px);
+}
+
+.product-card span {
+    background-color: rgb(50, 50, 186);
+    color: white;
+    font-family: Karla;
+    font-weight: 500;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.product-card:nth-child(7) span {
+    visibility: visible;
+}
+
+.product-card:nth-child(8) span {
+    visibility: visible;
+}
+
+.product-card:nth-child(9) span {
+    visibility: visible;
+}
+
+.product-card:nth-child(10) span {
+    visibility: visible;
+}
